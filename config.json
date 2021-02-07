@@ -1,0 +1,272 @@
+{
+  "host": {
+    "connection": {
+      "local_host": "localhost",
+      "local_port": 7000
+    },
+    "trace_filter": 511
+  },
+  "database": {
+    "connection": {
+      "host": "172.20.20.12",
+      "port": 3306,
+      "user": "copper",
+      "password": "ABCabc@123",
+      "database": "plating_data",
+      "debug": false,
+      "auto_reconnect": true
+    }
+  },
+  "equipment": {
+    "name": "520698_Ibiden_P_LB_CU24IP2",
+    "user_name": "PNP7",
+    "config_file": "520698.json",
+    "reports": [
+      {
+        "id": 100,
+        "variables": [ 1 ]
+      },
+      {
+        "id": 101,
+        "variables": [ 226 ]
+      },
+      {
+        "id": 102,
+        "variables": [ 200004 ]
+      },
+      {
+        "id": 103,
+        "variables": [ 200009 ]
+      },
+      {
+        "id": 104,
+        "variables": [ 21 ]
+      },
+      {
+        "id": 200,
+        "variables": [ 2, 4, 3, 201, 203, 204, 222 ]
+      },
+      {
+        "id": 210,
+        "variables": [ 205, 206, 221 ]
+      },
+      {
+        "id": 300,
+        "variables": [ 301, 302 ]
+      },
+      {
+        "id": 310,
+        "variables": [ 303, 304 ]
+      },
+      {
+        "id": 320,
+        "variables": [ 305, 306, 307, 308 ]
+      },
+      {
+        "id": 330,
+        "variables": [ 410 ]
+      },
+      {
+        "id": 390,
+        "variables": [ 400 ]
+      },
+      {
+        "id": 400,
+        "variables": [ 321, 322 ]
+      },
+      {
+        "id": 410,
+        "variables": [ 324, 325, 326 ]
+      },
+      {
+        "id": 500,
+        "variables": [ 6, 7 ]
+      },
+      {
+        "id": 520,
+        "variables": [ 8, 9, 214 ]
+      },
+      {
+        "id": 600,
+        "variables": [ 10 ]
+      },
+      {
+        "id": 610,
+        "variables": [ 11 ]
+      }
+    ],
+    "traces": [
+	  {
+        "id": 1,
+        "name": "LineMode,LineActualSpeed",
+        "data_sample_period": "000100",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 510000,
+        "max_svid": 511999
+      },
+	  {
+        "id": 2,
+        "name": "LineTotalArea",
+        "data_sample_period": "000100",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 512000,
+        "max_svid": 512999
+      },
+	  {
+        "id": 3,
+        "name": "DosingTotalQuantity",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 513000,
+        "max_svid": 513999
+      },
+	  {
+        "id": 4,
+        "name": "PumpFrequency,BlowerFrequency",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 514000,
+        "max_svid": 514999
+      },
+	  {
+        "id": 5,
+        "name": "PumpFlow",
+        "data_sample_period": "000100",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 515000,
+        "max_svid": 515999
+      },
+	  {
+        "id": 6,
+        "name": "BlowerPressure",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 516000,
+        "max_svid": 516999
+      },
+      {
+        "id": 7,
+        "name": "Level",
+        "data_sample_period": "000100",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 517000,
+        "max_svid": 517999
+      },
+	  {
+        "id": 8,
+        "name": "Temperature",
+        "data_sample_period": "000100",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 518000,
+        "max_svid": 518999
+      },
+      {
+        "id": 9,
+        "name": "Ip2SegmentCurrrentAvg",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 519000,
+        "max_svid": 519499
+      },
+      {
+        "id": 10,
+        "name": "Ip2SegmentCurrrentAvgFw",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 519500,
+        "max_svid": 519999
+      },
+      {
+        "id": 11,
+        "name": "Ip2SegmentCurrrentAvgRv",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 520000,
+        "max_svid": 520999
+      },
+      {
+        "id": 12,
+        "name": "Ip2SegmentVoltage",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 521000,
+        "max_svid": 521999
+      },
+	  {
+        "id": 13,
+        "name": "AnalazerValue",
+        "data_sample_period": "000100",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 522000,
+        "max_svid": 522999
+      },
+	  {
+        "id": 14,
+        "name": "UltrasonicValue",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 523000,
+        "max_svid": 523999
+      },
+	  {
+        "id": 15,
+        "name": "RectifierCurrent",
+        "data_sample_period": "000100",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 524000,
+        "max_svid": 524999
+      },
+	  {
+        "id": 16,
+        "name": "RectifierVotage",
+        "data_sample_period": "000100",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 525000,
+        "max_svid": 525999
+      },
+	  {
+        "id": 17,
+        "name": "TorqueValue",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 526000,
+        "max_svid": 526999
+      },
+	  {
+        "id": 18,
+        "name": "LevelControlWaterValveCounter",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 527000,
+        "max_svid": 527999
+      },
+      {
+        "id": 19,
+        "name": "DosingTotalManualQuantity",
+        "data_sample_period": "003000",
+        "total_samples": 4000000000,
+        "reporting_group_size": 1,
+        "min_svid": 528000,
+        "max_svid": 528999
+      }
+    ]
+  }
+}
